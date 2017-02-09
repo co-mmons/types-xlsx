@@ -26,6 +26,22 @@ export interface IProperties {
     SheetNames?: string[];
 }
 
+export interface IParsingOptions {
+    cellFormula?: boolean;
+    cellHTML?: boolean;
+    cellNF?: boolean;
+    cellStyles?: boolean;
+    cellDates?: boolean;
+    sheetStubs?: boolean;
+    sheetRows?: number;
+    bookDeps?: boolean;
+    bookFiles?: boolean;
+    bookProps?: boolean;
+    bookSheets?: boolean;
+    bookVBA?: boolean;
+    password?: string;
+}
+
 export interface IWritingOptions {
     cellDates?: "d" | "n";
     
