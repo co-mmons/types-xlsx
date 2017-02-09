@@ -86,7 +86,7 @@ export interface IWorkBook {
  * object representing the worksheet
  */
 export interface IWorkSheet {
-    [cell: string]: IWorkSheetCell;
+    [cell: string]: IWorkSheetCell | string;
 }
 
 export interface IWorkSheetCell {
