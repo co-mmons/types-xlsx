@@ -1,0 +1,8 @@
+{
+    "name": "@types/xlsx",
+    "version": "1.0.0",
+    "author": "co.mmons",
+    "private": false,
+    "license": "MIT",
+    "types": "xlsx.d.ts"
+}
